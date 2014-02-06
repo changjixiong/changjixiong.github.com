@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://changjixiong.github.io/atom.xml" rel="self"/>
   <link href="http://changjixiong.github.io/"/>
-  <updated>2014-02-06T18:14:53+08:00</updated>
+  <updated>2014-02-06T18:52:10+08:00</updated>
   <id>http://changjixiong.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -36,7 +36,7 @@
 0 在github上创建仓库 yourname.github.com, 并添加 ssh key<br/>
 1 克隆octopress仓库<br/>
 2 进入仓库目录                  <br/>
-3 安装gem: bundle update
+3 安装gem: bundle update<br/>
 4 生成模板: rake install<br/>
 5 将仓库 yourname.github.com 添加为本地octopress的克隆仓库的一个远端仓库: git remote add blog git@github.com:yourname/yourname.github.com.git, 命令中的“blog“ 可以根据自己的喜好命名<br/>
 6 增加一篇博客rake new_post[&ldquo;new post&rdquo;]<br/>
