@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://changjixiong.github.io/atom.xml" rel="self"/>
   <link href="http://changjixiong.github.io/"/>
-  <updated>2014-02-06T19:16:28+08:00</updated>
+  <updated>2014-02-06T19:51:18+08:00</updated>
   <id>http://changjixiong.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -58,8 +58,8 @@
 
 <h1>在另外一台电脑上继续写博客</h1>
 
-<p>0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git, 可以看到文件处于source分支<br/>
-1 进入仓库所在目录 继续克隆git clone git@github.com:yourname/yourname.github.com.git _deploy, 进入目录_deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件，都是博客的静态文件<br/>
+<p>0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git  <br/>
+1 进入仓库所在目录, 可以看到文件处于source分支, 继续克隆git clone git@github.com:yourname/yourname.github.com.git _deploy, 进入目录_deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件都是博客的静态文件<br/>
 2 cd .. 退回到仓库目录<br/>
 3 接下来的步骤参考 &ldquo;更新或者发布新博客&rdquo;</p>
 
