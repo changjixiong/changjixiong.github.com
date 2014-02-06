@@ -35,8 +35,8 @@ categories:
 3 git push blog source, 将源文件推送到github归档  
 
 # 在另外一台电脑上继续写博客
-0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git, 可以看到文件处于source分支  
-1 进入仓库所在目录 继续克隆git clone git@github.com:yourname/yourname.github.com.git \_deploy, 进入目录\_deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件，都是博客的静态文件  
+0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git    
+1 进入仓库所在目录, 可以看到文件处于source分支, 继续克隆git clone git@github.com:yourname/yourname.github.com.git \_deploy, 进入目录\_deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件都是博客的静态文件  
 2 cd .. 退回到仓库目录  
 3 接下来的步骤参考 "更新或者发布新博客"
 
