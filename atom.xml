@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://changjixiong.github.io/atom.xml" rel="self"/>
   <link href="http://changjixiong.github.io/"/>
-  <updated>2014-02-06T19:51:18+08:00</updated>
+  <updated>2014-02-06T19:57:36+08:00</updated>
   <id>http://changjixiong.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[配置octopress博客]]></title>
+    <link href="http://changjixiong.github.io/blog/2014/02/06/config-octopress-blog/"/>
+    <updated>2014-02-06T19:56:23+08:00</updated>
+    <id>http://changjixiong.github.io/blog/2014/02/06/config-octopress-blog</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[用octopress在github上搭建博客]]></title>
