@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://changjixiong.github.io/atom.xml" rel="self"/>
   <link href="http://changjixiong.github.io/"/>
-  <updated>2014-02-06T19:01:53+08:00</updated>
+  <updated>2014-02-06T19:11:00+08:00</updated>
   <id>http://changjixiong.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -50,13 +50,18 @@
 
 <h1>更新或者发布新博客</h1>
 
-<p>1.1 更新: 直接修改要修改的markdown 文件<br/>
-1.2 新建: rake new_post[&ldquo;title&rdquo;]<br/>
-2 rake generate<br/>
-3 rake deploy  新内容生效<br/>
-4 git push blog source, 将源文件推送到github归档</p>
+<p>0.1 更新: 直接修改要修改的markdown 文件<br/>
+0.2 新建: rake new_post[&ldquo;title&rdquo;]<br/>
+1 rake generate<br/>
+2 rake deploy  新内容生效<br/>
+3 git push blog source, 将源文件推送到github归档</p>
 
 <h1>在另外一台电脑上继续写博客</h1>
+
+<p>0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git, 可以看到文件处于source分支<br/>
+1 进入仓库所在目录 继续克隆git clone git@github.com:yourname/yourname.github.com.git <em>deploy, 进入目录</em>deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件，都是博客的静态文件<br/>
+2 cd .. 退回到仓库目录<br/>
+3 接下来的步骤参考 &ldquo;更新或者发布新博客&rdquo;</p>
 
 <h1>坑</h1>
 
