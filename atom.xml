@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://changjixiong.github.io/atom.xml" rel="self"/>
   <link href="http://changjixiong.github.io/"/>
-  <updated>2014-02-06T18:02:22+08:00</updated>
+  <updated>2014-02-06T18:14:53+08:00</updated>
   <id>http://changjixiong.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,6 +19,52 @@
     <updated>2014-02-06T17:33:17+08:00</updated>
     <id>http://changjixiong.github.io/blog/2014/02/06/deploy-blog-on-github-with-octopress</id>
     <content type="html"><![CDATA[<h1>环境</h1>
+
+<ul>
+<li>Mac OSX 10.9</li>
+<li>ruby 1.9.3</li>
+</ul>
+
+
+<h1>安装部署</h1>
+
+<ul>
+<li>参考文章<br/>
+<a href="http://www.yangzhiping.com/tech/octopress.html">Ruby开源项目介绍(1)：octopress——像黑客一样写博客</a><br/>
+<a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">象写程序一样写博客：搭建基于github的博客</a></li>
+<li>步骤<br/>
+0 在github上创建仓库 yourname.github.com, 并添加 ssh key<br/>
+1 克隆octopress仓库<br/>
+2 进入仓库目录                  <br/>
+3 安装gem: bundle update
+4 生成模板: rake install<br/>
+5 将仓库 yourname.github.com 添加为本地octopress的克隆仓库的一个远端仓库: git remote add blog git@github.com:yourname/yourname.github.com.git, 命令中的“blog“ 可以根据自己的喜好命名<br/>
+6 增加一篇博客rake new_post[&ldquo;new post&rdquo;]<br/>
+7 生成静态页面 rake generate<br/>
+7.1 rake preview 可以本地预览，“Starting to watch source with Jekyll and Compass. Starting Rack on port 4000”， 在浏览器中打开0.0.0.0:4000<br/>
+8 配置 博客程序与github pages 的关联: rake setup_github_pages, 按提示输入你创建的博客仓库的名字，注意最初创建的仓库是.com还是.io<br/>
+9 发布: rake deploy<br/>
+10 将源文件推送到 source 分支 git push blog source, 博客生效</li>
+</ul>
+
+
+<h1>更新或者发布新博客</h1>
+
+<p>1.1 更新: 直接修改要修改的markdown 文件<br/>
+1.2 新建: rake new_post[&ldquo;title&rdquo;]<br/>
+2 rake generate<br/>
+3 rake deploy  新内容生效<br/>
+4 git push blog source, 将源文件推送到github归档</p>
+
+<h1>坑</h1>
+
+<ul>
+<li>目测用ruby 2.0.0会悲剧，ruby 2.0.0 环境下Octopress项目bundle update 会卡在Using haml (3.1.8)， 终端执行后会提示安装kramdown -v &lsquo;0.14.2&#8217;失败，如果手动用gem 安装kramdown -v &#8216;0.14.2&#8217;会提示 ERROR:  Error installing kramdown:
+  invalid gem: package is corrupt, exception while verifying: undefined method `size&rsquo; for nil:NilClass (NoMethodError) in xxx, 切换到1.9.3 环境，整个世界清净了。</li>
+<li>zsh 在执行rake new_post[‘title’]的时候，会提示zsh: no matches found: task[title], 需要
+<a href="https://github.com/robbyrussell/oh-my-zsh/issues/433">Add alias rake=&lsquo;noglob rake&rsquo; in your .zshrc</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
