@@ -38,9 +38,8 @@ categories:
 0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git    
 1 安装gem: bundle update  
 2 rake preview 预览一下是否正常，如果提示rake 版本什么的，要执行bundle exec，则运行bundle exec rake preview  
-3 进入仓库所在目录, 可以看到文件处于source分支, 继续克隆git clone git@github.com:yourname/yourname.github.com.git \_deploy   
-4 cd .. 退回到仓库目录  
-5 接下来的步骤参考 "更新或者发布新博客"
+3 创建目录 _deploy   
+4 接下来的步骤参考 "更新或者发布新博客"
 
 
 # 坑
