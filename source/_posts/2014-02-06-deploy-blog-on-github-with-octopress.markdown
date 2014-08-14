@@ -28,7 +28,7 @@ categories:
 10 将源文件推送到 source 分支 git push blog source, 博客生效
 
 # 更新或者发布新博客
-0.1 更新: 直接修改要修改的markdown 文件  
+0.1 更新: 在仓库目录下，进入目录 source/_posts, 直接修改要修改的markdown 文件  
 0.2 新建: rake new_post["title"]  
 1 rake generate  
 2 rake deploy  新内容生效  
