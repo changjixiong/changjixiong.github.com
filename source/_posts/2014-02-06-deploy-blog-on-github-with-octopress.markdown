@@ -38,8 +38,8 @@ categories:
 0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git    
 1 安装gem: bundle update  
 2 rake preview 预览一下是否正常，如果提示rake 版本什么的，要执行bundle exec，则运行bundle exec rake preview  
-3 再次克隆仓库，到目录_deploy,并切换到master分支
-4 回退到上一级目录
+3 再次克隆仓库，到目录_deploy,并切换到master分支  
+4 回退到上一级目录  
 5 接下来的步骤参考 "更新或者发布新博客"
 
 
