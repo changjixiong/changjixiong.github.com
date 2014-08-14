@@ -115,8 +115,8 @@ Ruby开源项目介绍(1)：octopress——像黑客一样写博客
 0 在github上创建仓库 yourname.github.com, 并添加 ssh key<br/>
 1 克隆octopress仓库<br/>
 2 进入仓库目录                  <br/>
-3 安装gem: bundle update
-4 生成模板: rake install<br/>
+3 安装gem: bundle update<br/>
+4 生成模板: rake install  <br/>
 5 将仓库 yourname.github.com 添加为本地octopress的克隆仓库的一个远端仓库: git remote add blog git@github.com:yourname/yourname.github.com.git, 命令中的“blog“ 可以根据自己的喜好命名<br/>
 6 增加一篇博客rake new_post[&ldquo;new post&rdquo;]<br/>
 7 生成静态页面 rake generate<br/>
@@ -138,6 +138,8 @@ Ruby开源项目介绍(1)：octopress——像黑客一样写博客
 <h1>在另外一台电脑上继续写博客</h1>
 
 <p>0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git  <br/>
+1 安装gem: bundle update<br/>
+2 rake preview 预览一下是否正常，如果提示rake 版本什么的，要执行bundle exec，则运行bundle exec rake preview
 1 进入仓库所在目录, 可以看到文件处于source分支, 继续克隆git clone git@github.com:yourname/yourname.github.com.git _deploy, 进入目录_deploy, 切换到master分支: git checkout master, 可以看一下，现在的文件都是博客的静态文件<br/>
 2 cd .. 退回到仓库目录<br/>
 3 接下来的步骤参考 &ldquo;更新或者发布新博客&rdquo;</p>
@@ -191,8 +193,6 @@ Ruby开源项目介绍(1)：octopress——像黑客一样写博客
     <p class="meta">
       
       
-        <a class="basic-alignment right" href="/blog/2014/02/06/config-octopress-blog/" title="Next Post: 配置octopress博客">配置octopress博客 &raquo;</a>
-      
     </p>
   </footer>
 </article>
@@ -204,10 +204,6 @@ Ruby开源项目介绍(1)：octopress——像黑客一样写博客
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/02/06/config-octopress-blog/">配置octopress博客</a>
-      </li>
     
       <li class="post">
         <a href="/blog/2014/02/06/deploy-blog-on-github-with-octopress/">用octopress在github上搭建博客</a>
