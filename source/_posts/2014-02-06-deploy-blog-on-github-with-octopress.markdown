@@ -30,15 +30,15 @@ categories:
 # 更新或者发布新博客
 0.1 更新: 在仓库目录下，进入目录 source/_posts, 直接修改要修改的markdown 文件  
 0.2 新建: rake new_post["title"]  
-1 rake generate  
+1 回到仓库目录，rake generate  
 2 rake deploy  新内容生效  
 3 git push blog source, 将源文件推送到github归档  
 
 # 在另外一台电脑上继续写博客
-0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git    
+0 将仓库克隆下来 git clone git@github.com:yourname/yourname.github.com.git，并进入到仓库的目录    
 1 安装gem: bundle update  
 2 rake preview 预览一下是否正常，如果提示rake 版本blablabla要执行bundle exec之类的，则运行bundle exec rake preview  
-3 再次克隆仓库，到目录_deploy  
+3 再次克隆仓库到目录_deploy，git clone git@github.com:yourname/yourname.github.com.git _deploy，进入目录_deploy，并切换到master分支   
 4 回退到上一级目录  
 5 接下来的步骤参考 "更新或者发布新博客"
 
