@@ -48,6 +48,7 @@ categories:
 * 目测用ruby 2.0.0会悲剧，ruby 2.0.0 环境下Octopress项目bundle update 会卡在Using haml (3.1.8)， 终端执行后会提示安装kramdown -v '0.14.2'失败，如果手动用gem 安装kramdown -v '0.14.2'会提示 ERROR:  Error installing kramdown:
 	invalid gem: package is corrupt, exception while verifying: undefined method `size' for nil:NilClass (NoMethodError) in xxx, 切换到1.9.3 环境，整个世界清净了。
 * zsh 在执行rake new_post[‘title’]的时候，会提示zsh: no matches found: task[title], 需要
-[Add alias rake='noglob rake' in your .zshrc](https://github.com/robbyrussell/oh-my-zsh/issues/433)   
+[Add alias rake='noglob rake' in your .zshrc](https://github.com/robbyrussell/oh-my-zsh/issues/433) 或者rake "new_post[titles]"
+
 
 
