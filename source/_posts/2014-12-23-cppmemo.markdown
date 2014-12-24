@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "CppMemo"
+title: "C++备忘录"
 date: 2014-12-23 20:55:32 +0800
 comments: true
 categories: 
 ---
-# C++备忘录
+# STL
+## remove_if
