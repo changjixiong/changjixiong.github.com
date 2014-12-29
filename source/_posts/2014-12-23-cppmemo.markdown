@@ -3,7 +3,7 @@ layout: post
 title: "C++备忘录"
 date: 2014-12-23 20:55:32 +0800
 comments: true
-categories: 
+categories:C++
 ---
 # STL
 ## remove_if
