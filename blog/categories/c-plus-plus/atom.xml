@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: C++ | My Octopress Blog]]></title>
+  <link href="http://changjixiong.github.io/blog/categories/c-plus-plus/atom.xml" rel="self"/>
+  <link href="http://changjixiong.github.io/"/>
+  <updated>2014-12-29T19:36:35+08:00</updated>
+  <id>http://changjixiong.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[C++备忘录]]></title>
+    <link href="http://changjixiong.github.io/blog/2014/12/23/cppmemo/"/>
+    <updated>2014-12-23T20:55:32+08:00</updated>
+    <id>http://changjixiong.github.io/blog/2014/12/23/cppmemo</id>
+    <content type="html"><![CDATA[<h1>STL</h1>
+
+<h2>remove_if</h2>
+]]></content>
+  </entry>
+  
+</feed>
